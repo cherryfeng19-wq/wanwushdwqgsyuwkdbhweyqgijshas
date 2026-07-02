@@ -1,0 +1,40 @@
+body {
+  font-family: Arial;
+  text-align: center;
+  background: #eee;
+}
+
+h1 {
+  margin-top: 15px;
+}
+
+#board {
+  width: 480px;
+  height: 480px;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  border: 3px solid #333;
+}
+
+.square {
+  width: 60px;
+  height: 60px;
+  font-size: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.white {
+  background: #f0d9b5;
+}
+
+.black {
+  background: #b58863;
+}
+
+#status {
+  font-size: 18px;
+}
